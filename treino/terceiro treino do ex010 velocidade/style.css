@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+main {
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(205, 206, 255);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.637);
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    font: normal 16px Arial;
+    background-color: rgb(2, 2, 221);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(70, 70, 5);
+    font: bolder 32px Arial;
+    padding: 10px;
+}
+
+input { 
+    background-color: rgb(229, 243, 36);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
+    padding-right: 5px;
+    width: 70px;
+
+}
+
+p {
+    font: bolder 16px Arial;
+}

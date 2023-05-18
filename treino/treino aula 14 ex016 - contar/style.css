@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(28, 28, 226);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
+    
+}
+
+div#dados {
+    background-color: rgb(90, 247, 142);
+    padding: 2px;
+    margin: 2px;
+    
+}
+
+div#res {
+    background-color: rgba(253, 100, 100, 0.911);
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

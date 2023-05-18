@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    País de origem : <input type="text" name="txtori" id="txtori">
+    <input type="button" value="Verificar" onclick="verificar()">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar() {
+            var txto = document.querySelector("input#txtori")
+            var res = document.querySelector("div#res")
+            var ori = (txto.value)            
+            var Brasil = (txto.value)
+            res.innerHTML = ("Seu país de origem é " + ori + "!")
+            if ( ori = Brasil ) {
+            res.innerHTML += ("Você é Brasileiro")
+            } else {
+                res.innerHTML += ("Você é estrageiro!")
+            }
+
+        }
+    </script>
+
+
+    
+</body>
+</html>
